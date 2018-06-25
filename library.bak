@@ -1,0 +1,191 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R?
+U 1 1 5AD89DFD
+P 1400 1400
+F 0 "R?" V 1480 1400 50  0000 C CNN
+F 1 "R" V 1400 1400 50  0000 C CNN
+F 2 "" V 1330 1400 50  0001 C CNN
+F 3 "" H 1400 1400 50  0001 C CNN
+	1    1400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5AD89E96
+P 1900 1400
+F 0 "C?" H 1925 1500 50  0000 L CNN
+F 1 "C" H 1925 1300 50  0000 L CNN
+F 2 "" H 1938 1250 50  0001 C CNN
+F 3 "" H 1900 1400 50  0001 C CNN
+	1    1900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_ALT D?
+U 1 1 5AD89EF1
+P 2500 1400
+F 0 "D?" H 2500 1500 50  0000 C CNN
+F 1 "D_ALT" H 2500 1300 50  0000 C CNN
+F 2 "" H 2500 1400 50  0001 C CNN
+F 3 "" H 2500 1400 50  0001 C CNN
+	1    2500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_ALT D?
+U 1 1 5AD89FDA
+P 3100 1400
+F 0 "D?" H 3100 1500 50  0000 C CNN
+F 1 "LED_ALT" H 3100 1300 50  0000 C CNN
+F 2 "" H 3100 1400 50  0001 C CNN
+F 3 "" H 3100 1400 50  0001 C CNN
+	1    3100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J?
+U 1 1 5AD8A069
+P 1400 1950
+F 0 "J?" H 1400 2050 50  0000 C CNN
+F 1 "Conn_01x01" H 1400 1850 50  0000 C CNN
+F 2 "" H 1400 1950 50  0001 C CNN
+F 3 "" H 1400 1950 50  0001 C CNN
+	1    1400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_DIP_x03 SW?
+U 1 1 5AD8A204
+P 2050 2050
+F 0 "SW?" H 2050 2400 50  0000 C CNN
+F 1 "SW_DIP_x03" H 2050 1900 50  0000 C CNN
+F 2 "" H 2050 2050 50  0001 C CNN
+F 3 "" H 2050 2050 50  0001 C CNN
+	1    2050 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5AD8A251
+P 2750 1950
+F 0 "SW?" H 2800 2050 50  0000 L CNN
+F 1 "SW_Push" H 2750 1890 50  0000 C CNN
+F 2 "" H 2750 2150 50  0001 C CNN
+F 3 "" H 2750 2150 50  0001 C CNN
+	1    2750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_DPST_x2 SW?
+U 1 1 5AD8A292
+P 3400 1950
+F 0 "SW?" H 3400 2075 50  0000 C CNN
+F 1 "SW_DPST_x2" H 3400 1850 50  0000 C CNN
+F 2 "" H 3400 1950 50  0001 C CNN
+F 3 "" H 3400 1950 50  0001 C CNN
+	1    3400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NPN_BCE Q?
+U 1 1 5AD8A2CF
+P 3700 1450
+F 0 "Q?" H 3900 1500 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 3900 1400 50  0000 L CNN
+F 2 "" H 3900 1550 50  0001 C CNN
+F 3 "" H 3700 1450 50  0001 C CNN
+	1    3700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_PNP_BCE Q?
+U 1 1 5AD8A31C
+P 4550 1450
+F 0 "Q?" H 4750 1500 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 4750 1400 50  0000 L CNN
+F 2 "" H 4750 1550 50  0001 C CNN
+F 3 "" H 4550 1450 50  0001 C CNN
+	1    4550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speaker LS?
+U 1 1 5AD8A359
+P 4100 1950
+F 0 "LS?" H 4150 2175 50  0000 R CNN
+F 1 "Speaker" H 4150 2100 50  0000 R CNN
+F 2 "" H 4100 1750 50  0001 C CNN
+F 3 "" H 4090 1900 50  0001 C CNN
+	1    4100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Cell BT?
+U 1 1 5AD8A3A4
+P 1400 2650
+F 0 "BT?" H 1500 2750 50  0000 L CNN
+F 1 "Battery_Cell" H 1500 2650 50  0000 L CNN
+F 2 "" V 1400 2710 50  0001 C CNN
+F 3 "" V 1400 2710 50  0001 C CNN
+	1    1400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_02x04_Odd_Even J?
+U 1 1 5AD8A5DD
+P 2450 2700
+F 0 "J?" H 2500 2900 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 2500 2400 50  0000 C CNN
+F 2 "" H 2450 2700 50  0001 C CNN
+F 3 "" H 2450 2700 50  0001 C CNN
+	1    2450 2700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
