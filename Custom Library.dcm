@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BMA250E
+D 3-Axis Accelerometer, 2/4/8g range, I2C/SPI interface
+K 3-axis accelerometer spi mems
+F www.st.com/resource/en/datasheet/lis2hh12.pdf
+$ENDCMP
+#
+$CMP ISP-PROG-6
+D Atmel 6-pin ISP connector
+K AVR ISP Connector
+F  ~
+$ENDCMP
+#
 $CMP SWD-PROG-6
 D Atmel 6-pin ISP connector
 K AVR ISP Connector
