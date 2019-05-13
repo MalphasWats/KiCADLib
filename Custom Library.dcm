@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HCT595
+D 8-bit serial in/out Shift Register 3-State Outputs
+K HCTMOS SR 3State
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf
+$ENDCMP
+#
+$CMP 74LS595
+D 8-bit serial in/out Shift Register 3-State Outputs
+K TTL SR 3State
+F http://www.ti.com/lit/gpn/sn74ls595
+$ENDCMP
+#
 $CMP BMA250E
 D 3-Axis Accelerometer, 2/4/8g range, I2C/SPI interface
 K 3-axis accelerometer spi mems
@@ -10,6 +22,12 @@ $CMP ISP-PROG-6
 D Atmel 6-pin ISP connector
 K AVR ISP Connector
 F  ~
+$ENDCMP
+#
+$CMP MAX6951
+D 64 LED matrix driver
+K LED driver
+F https://datasheets.maximintegrated.com/en/ds/MAX6950-MAX6951.pdf
 $ENDCMP
 #
 $CMP SWD-PROG-6
