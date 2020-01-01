@@ -18,6 +18,11 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
+$CMP MCP1661
+D 2.4 - 32v Boost Connverter
+K boost controller
+$ENDCMP
+#
 $CMP SWD-PROG-6
 D Atmel 6-pin ISP connector
 K AVR ISP Connector
